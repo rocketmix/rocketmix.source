@@ -64,7 +64,7 @@ public class SwaggerController {
 	@RequestMapping(value = "/swagger-ui/index.html", method = RequestMethod.GET)
 	public @ResponseBody byte[] index() throws IOException {
 		ClassPathResource htmlResource = new ClassPathResource(
-				"/META-INF/resources/webjars/swagger-ui/3.19.5/index.html");
+				"/META-INF/resources/webjars/swagger-ui/4.0.1/index.html");
 		InputStream htmlStream = htmlResource.getInputStream();
 		String content = IOUtils.toString(htmlStream);
 		content = content.replaceAll("url.*:.*,", getUrls());
@@ -78,7 +78,7 @@ public class SwaggerController {
 	@RequestMapping(value = "/swagger-ui/swagger-ui.css", method = RequestMethod.GET)
 	public @ResponseBody byte[] css() throws IOException {
 		ClassPathResource classPathResource = new ClassPathResource(
-				"/META-INF/resources/webjars/swagger-ui/3.19.5/swagger-ui.css");
+				"/META-INF/resources/webjars/swagger-ui/4.0.1/swagger-ui.css");
 		InputStream inputStream = classPathResource.getInputStream();
 		String content = IOUtils.toString(inputStream);
 		content = content.replaceFirst("\\.swagger-ui \\.topbar[ ]*\\{[^\\}]*\\}",
