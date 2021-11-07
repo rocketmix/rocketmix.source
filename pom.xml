@@ -50,7 +50,7 @@
 		<cxf.version>3.4.5</cxf.version>
 		<swagger-ui.version>4.0.1</swagger-ui.version>
 		<spring.boot.version>2.2.2.RELEASE</spring.boot.version>
-		<spring.admin.version>2.2.1</spring.admin.version>
+		<spring.admin.version>2.5.3</spring.admin.version>
 		<spring.cloud.version>Hoxton.SR12</spring.cloud.version>
 	</properties>
 	<parent>
