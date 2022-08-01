@@ -117,7 +117,7 @@
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
-			<version>2.8.5</version><!--$NO-MVN-MAN-VER$ -->
+			<version>2.9.1</version><!--$NO-MVN-MAN-VER$ -->
 		</dependency>
 		<!-- SWAGGER UI (end) -->
 		<!-- MONITORING AND CIRCUIT BREAKER (start) -->
